@@ -19,6 +19,7 @@
 	</properties>
 	<dependencies>
 
+		<!-- Spring boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -49,7 +50,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-		
+
 		<!-- Spring Cloud -->
 
 		<dependency>
@@ -68,7 +69,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-sleuth-zipkin</artifactId>
-        </dependency>>
+        </dependency>
 		 
 		<!-- Third Parties -->
 		<dependency>
